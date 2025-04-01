@@ -9,7 +9,7 @@ import copy
 # hyper-parameters
 BATCH_SIZE = 64
 LR = 0.001
-GAMMA = 0.1
+GAMMA = 0.2 # 변경됨
 EPISILO = 0.995
 MEMORY_CAPACITY = 1000
 Q_NETWORK_ITERATION = 100

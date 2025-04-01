@@ -15,22 +15,22 @@ MHZ = KHZ*1e3
 GHZ = MHZ*1e3
 
 
-slot = 0.1
+slot = 0.1 # time slot
 
-local_f = 1*GHZ  
+local_f = 1*GHZ  # local CPU frequency
 
 # Tasks
 Prtask = 0.4  # Probability of task coming at any slot
 data_size = np.array([10,1,8,0.1])*KB  # kB Unified distributed
 cycle_number = 7.375e2
 
-width = 1*MHZ
-noise = 1.5e-4
+width = 1*MHZ # NW bandwidth
+noise = 1.5e-4 
 
-MECS_x = [10,-10,20]
-MECS_y = [10,10,0]
+MECS_x = [10,-10,20] # MEC location : x-coordinate
+MECS_y = [10,10,0]  # MEC location : y-coordinate
 P_send = 0.5
 
-user_X = 0
-user_Y = 10
+user_X = 0  # user location : x-coordinate
+user_Y = 10  # user location : y-coordinate
 
